@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css links -->
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>JQ PlugIn</title>
+    <script src="https://kit.fontawesome.com/856526d9f5.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/Icon.png">
+  </head>
+  <body>
+    <div class="container ctr bg-light">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center heading">Counter Plugin</h1>
+        </div>
+        <div class="col-md-4 text-center">
+          <!-- jq plug -->
+          <span class="counter counter_size">1,234,567.00</span>
+          <!-- jq plug -->
+        </div>
+        <div class="col-md-4 text-center">
+          <!-- jq plug -->
+          <span class="counter_size">$</span><span class="counter counter_size">1.99</span>
+          <!-- jq plug -->
+        </div>
+        <div class="col-md-4 text-center">
+          <!-- jq plug -->
+          <span class="counter counter_size">12345</span>
+          <!-- jq plug -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center heading">Parallax</h1>
+        </div>
+        <div class="col-md-12">
+          <!-- jq plug -->
+          <div class="parallax-window p_img" data-parallax="scroll" data-image-src="images/home.jpg"></div>
+          <!-- jq plug -->
+        </div>
+        <div class="col-md-12">
+          <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ad obcaecati. Laboriosam ipsum officia aperiam corrupti atque expedita similique, corporis, tenetur ratione! Vero at quas quia aut eos! Ipsum ipsam ullam rerum accusantium, eos quisquam vero vel architecto, provident nemo quis possimus! Iste autem sit tempore dolor impedit deserunt error amet, necessitatibus est unde officia et excepturi, officiis quas hic nulla nam temporibus provident recusandae. Fugiat obcaecati dolor maxime repudiandae, autem accusantium provident quos possimus, eos reprehenderit doloremque, inventore. Obcaecati autem facilis, esse laboriosam eaque perspiciatis nostrum consequuntur omnis tenetur quaerat quidem blanditiis soluta, possimus sint dolore dicta neque! Consectetur beatae debitis dolorem iusto modi voluptatum fugiat tempora similique autem voluptates reprehenderit itaque vitae ratione harum quam porro odit, exercitationem facere consequatur ullam illum optio fugit ex rerum. Vitae minima obcaecati sit, commodi assumenda nihil debitis consectetur, sequi quod fugiat. Maxime, dolor deserunt tempore obcaecati excepturi placeat qui voluptatem suscipit!</h5>
+        </div>
+        <div class="col-md-12">
+          <!-- jq plug -->
+          <div class="parallax-window p_img" data-parallax="scroll" data-image-src="images/desktop.jpg"></div>
+          <!-- jq plug -->
+        </div>
+        <div class="col-md-12">
+          <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ad obcaecati. Laboriosam ipsum officia aperiam corrupti atque expedita similique, corporis, tenetur ratione! Vero at quas quia aut eos! Ipsum ipsam ullam rerum accusantium, eos quisquam vero vel architecto, provident nemo quis possimus! Iste autem sit tempore dolor impedit deserunt error amet, necessitatibus est unde officia et excepturi, officiis quas hic nulla nam temporibus provident recusandae. Fugiat obcaecati dolor maxime repudiandae, autem accusantium provident quos possimus, eos reprehenderit doloremque, inventore. Obcaecati autem facilis, esse laboriosam eaque perspiciatis nostrum consequuntur omnis tenetur quaerat quidem blanditiis soluta, possimus sint dolore dicta neque! Consectetur beatae debitis dolorem iusto modi voluptatum fugiat tempora similique autem voluptates reprehenderit itaque vitae ratione harum quam porro odit, exercitationem facere consequatur ullam illum optio fugit ex rerum. Vitae minima obcaecati sit, commodi assumenda nihil debitis consectetur, sequi quod fugiat. Maxime, dolor deserunt tempore obcaecati excepturi placeat qui voluptatem suscipit!</h5>
+        </div>
+        <div class="col-md-12">
+          <!-- jq plug -->
+          <div class="parallax-window p_img" data-parallax="scroll" data-image-src="images/alone.jpg"></div>
+          <!-- jq plug -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-right">
+          <a class="btn btn_cus btn-primary" href="page-2.html" role="button">Next Page</a>
+        </div>
+      </div>
+    </div>
+    <!-- js links -->
+    <!-- <script src="js/jquery-3.5.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- plugin js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <!--<script src="js/popper.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+        //counter plugin
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+      });
+    </script>
+  </body>
+</html>
